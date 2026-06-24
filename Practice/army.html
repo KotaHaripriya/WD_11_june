@@ -4,13 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Indian Army</title>
+    <!--padding: adds 15ps of space inside navigation bar around content-->
+    <!--nav a: styles all anchor tags inside navigation bar-->
+    <style>
+        
+        nav{
+            background-color: rgb(8, 95, 5);
+            padding: 15px; 
+            text-align: center;
+
+        }
+        nav a{
+            color: white;
+            font-size: 20px;
+            margin: 20px;
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
-    
-    <h1 style="text-align: center;"><u>Indian Army:The Pride of The Nation</u></h1>
-    <img 
-    
-    
+    <img src="./images/670fec254c97d8ebfad48c16_indian-army-35e82zy24xfm0pgi.jpg" width="1350px" height="100px" margin="0">
+    <!--margin:used to create space outside an element's border-->
+    <!--nav: used to define navigation section-->
+    <nav>
+        <!--a : ussed to redirect to specific website
+        #: specifies that that link points no where-->
+        <a href="#">Home</a> 
+        <a href="#">About</a>
+        <a href="#">Values</a>
+        <a href="#">Ranks</a>
+        <a href="#">Awards</a>
+        <a href="#">Heroes</a>
+        <a href="#">Join Us</a>
+    </nav>
+    <h1 style="text-align: center; color: rgb(28, 78, 5);"><u>About Indian Army</u></h1>
+    <!--div: Creates a container to group elements-->
+    <!--disply flex:Places child elements side by side-->
+    <!--align center: vertically align image and text-->
+    <!--gap: add 30px space between image and text-->
+    <div style="display:flex; align-items: center; gap:30px">
+        <img src="./images/Indian_Army_Circular_Insignia.svg.png" width="500" height="300">
+        <p style="font-size: 25px; font-family: Arial, Helvetica, sans-serif;">The Indian Army is the land-based branch and the
+        largest component of the Indian Armed Forces.
+        It is one of the most powerful armies in the world
+        and stands as a symbol of bravery, discipline,
+        and sacrifice. The Army safeguards our nation's
+        borders and is always ready to protect the country
+        and its citizens.</p>
+    </div>
+
+
 
 </body>
 </html>
